@@ -1,0 +1,94 @@
+body
+{
+    background-color:#131313;
+    margin: 0;
+    font-family: "Avenir";
+}
+
+h1
+{
+    color: rgb(22, 20, 20);
+    text-align: center;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    /* background-color: steelblue; */
+    background-image: linear-gradient(to top,#0883ff 0%,#658697 100%);
+    margin: 0;
+    padding: 20px 0;
+}
+
+
+.container
+{
+    width: 600px;
+    height: 600px;
+    margin:0 auto;
+}
+
+.square
+{
+    float: left; 
+    /*IF we dont use float left all blocks will be vertical one below another*/
+    width: 30%;
+   background-color: chocolate;
+   height: 30%;
+   margin: 1.66%;
+   border-radius: 40px;
+   transform: transition 0.5s;
+}
+
+.message
+{
+    color: black;
+    font-size: 18px;
+    font-style:oblique;
+    font-weight:700;
+    padding-left: 100px;
+    margin-right: 20px;
+}
+
+.strap
+{
+    width: 100%;
+    height: 38px;
+    /* background-color: wheat; */
+    background-image: linear-gradient(to top,#ff0844 0%,#ffb199 100%);
+    text-align: center;
+}
+
+.selected
+{
+    background-color: blue;
+}
+
+.block
+{
+    margin-right: 100px;
+}
+
+button
+{
+    text-align: center;
+}
+
+#rgb
+{
+    font-size: 200%;
+}
+#easy{
+    border-radius: 5px;
+    background-color:aliceblue;
+    
+    margin-top: 10px;
+}
+#hard{
+    border-radius: 5px;
+    color:#fff;
+    background-color: rgb(230, 42, 18);
+}
+#play{
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: 600;
+}
