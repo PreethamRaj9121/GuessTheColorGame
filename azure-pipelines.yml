@@ -8,6 +8,13 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'vaibhav (94fbeb55-aa01-4ba5-9046-c374f6fc4afa)'
+    appType: 'webAppLinux'
+    WebAppName: 'PreethamCoinTossApp'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 
 steps:
 - task: ArchiveFiles@2
